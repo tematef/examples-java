@@ -5,39 +5,45 @@
         <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
     </listeners>
 
-    <test verbose="1" name="Lucky Pug">
-        <classes>
-            <class name="com.epam.reportportal.example.testng.log4j.logging.LuckyPugTest"/>
-        </classes>
-    </test>
+    <!--    <test verbose="1" name="Lucky Pug">-->
+    <!--        <classes>-->
+    <!--            <class name="com.epam.reportportal.example.testng.log4j.logging.LuckyPugTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
-    <test verbose="1" name="XML logging">
-        <classes>
-            <class name="com.epam.reportportal.example.testng.log4j.logging.XmlLoggingTest"/>
-        </classes>
-    </test>
+    <!--    <test verbose="1" name="XML logging">-->
+    <!--        <classes>-->
+    <!--            <class name="com.epam.reportportal.example.testng.log4j.logging.XmlLoggingTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
-    <test verbose="1" name="Better XML logging">
-        <classes>
-            <class name="com.epam.reportportal.example.testng.log4j.logging.XmlLoggingBetterTest"/>
-        </classes>
-    </test>
+    <!--    <test verbose="1" name="Better XML logging">-->
+    <!--        <classes>-->
+    <!--            <class name="com.epam.reportportal.example.testng.log4j.logging.XmlLoggingBetterTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
-    <test verbose="1" name="Json logging">
-        <classes>
-            <class name="com.epam.reportportal.example.testng.log4j.logging.JsonLoggingTest"/>
-        </classes>
-    </test>
+    <!--    <test verbose="1" name="Json logging">-->
+    <!--        <classes>-->
+    <!--            <class name="com.epam.reportportal.example.testng.log4j.logging.JsonLoggingTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
-    <test verbose="1" name="Different logging types">
-        <classes>
-            <class name="com.epam.reportportal.example.testng.log4j.logging.LoggingTest"/>
-        </classes>
-    </test>
+    <!--    <test verbose="1" name="Different logging types">-->
+    <!--        <classes>-->
+    <!--            <class name="com.epam.reportportal.example.testng.log4j.logging.LoggingTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
-    <test name="Test data provider with factory">
+    <!--    <test name="Test data provider with factory">-->
+    <!--        <classes>-->
+    <!--            <class name="com.epam.reportportal.example.testng.log4j.parametrized.ParametrizedTest" />-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <test name="AAA">
         <classes>
-            <class name="com.epam.reportportal.example.testng.log4j.parametrized.ParametrizedTest" />
+            <class name="com.epam.reportportal.example.testng.log4j.logging.NestedStepsTest" />
         </classes>
     </test>
 
